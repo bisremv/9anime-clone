@@ -1,0 +1,169 @@
+:root {
+  --color-bg-1st: #050505;
+  --color-bg-2nd: #1c1c1c;
+  --color-1st-accent: #713abf;
+  --color-2nd-accent: #a885da;
+  --color-text-on2nd-Bg: #515151;
+  --color-bg-3rd: #4d4d4e;
+  --color-ico-messenger: #0084ff;
+  --color-ico-telegram: #0088c3;
+  --color-ico-facebook: #3b5998;
+  --color-ico-twitter: #1da1f2;
+  --color-ico-moreIco: #ff6550;
+  --color-ico-pinterest: #cb2027;
+  --color-actbtn: #fbc32e;
+  --color-text-search: #1c1c1c;
+  --color-text-heading: #dddddd;
+  --color-text-synopsis: #777777;
+  --color-text-body: #aaaaaa;
+  --color-light: #ffffff;
+  --font-fam: Nunito;
+}
+* {
+  margin: 0% auto;
+}
+.wrapper {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin: 2rem auto;
+  max-width: 50rem;
+  border: solid red;
+  min-height: 40rem;
+  padding: 0px 8px;
+}
+.txt-container {
+  margin: 0 auto;
+  padding: 0px 8px;
+  border: solid blue;
+  max-width: 50rem;
+}
+.logo {
+  margin: 0px auto;
+  width: 230px;
+  height: 60px;
+}
+.small-navbar {
+  margin: 0 auto;
+  display: flex;
+  gap: clamp(4px, 8px, 11px);
+  list-style: none;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+li {
+  padding: 3px 12px;
+  font-weight: 600;
+  text-align: center;
+}
+.search-block {
+  background-color: var(--color-bg-2nd);
+  border-radius: 6px;
+  padding: 0.5rem;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.search-filed {
+  line-height: 2.2rem;
+  border: 0px;
+  width: 90%;
+  background-color: var(--color-light);
+  border-radius: 9px;
+}
+.QA {
+  display: none;
+}
+.ri-search-line {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: -26px;
+  border-radius: 9px;
+  color: rgb(68, 68, 68);
+  background-color: var(--color-light);
+}
+
+/*
+? deside later to add the feature
+todo:drop down search results 
+     */
+.bg-TOP {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  border: solid saddlebrown;
+}
+.img-actbtn {
+  border: solid #0084ff;
+  width: 100%;
+}
+.actbtn {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 82%;
+  left: 51%;
+  border-radius: 30px;
+  background: var(--color-actbtn);
+  transform: translate(-50%, -50%);
+}
+.btn {
+  font-size: 20px;
+  padding: 0px 20px;
+  background: var(--color-actbtn);
+  border: none;
+  line-height: 60px;
+  border-radius: 30px;
+}
+.ri-arrow-right-circle-fill {
+  position: relative;
+  left: -15px;
+  font-size: 40px;
+  color: #050505;
+}
+
+@media (min-width: 1080px) {
+  .search-block {
+    background-color: var(--color-bg-2nd);
+    border-radius: 6px;
+    padding: 0px;
+    width: 80%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: baseline;
+  }
+  .search-filed {
+    background-color: var(--color-bg-2nd);
+    line-height: 1rem;
+    border: 0px;
+    width: 70%;
+    border-radius: 9px;
+  }
+  .ri-search-line {
+    position: relative;
+    left: 1px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    color: rgb(68, 68, 68);
+    background-color: var(--color-bg-2nd);
+  }
+  .QA {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+    height: 2rem;
+  }
+  /*
+? deside later to add the feature
+todo:drop down search results 
+     */
+}
