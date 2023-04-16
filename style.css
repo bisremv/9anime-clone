@@ -12,10 +12,12 @@
   --color-ico-moreIco: #ff6550;
   --color-ico-pinterest: #cb2027;
   --color-actbtn: #fbc32e;
+  --color-actbtn-hover: #e6b01c;
   --color-text-search: #1c1c1c;
   --color-text-heading: #dddddd;
   --color-text-synopsis: #777777;
   --color-text-body: #aaaaaa;
+  --color-light: #ffffff;
   --font-fam: Nunito;
 }
 input {
