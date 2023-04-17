@@ -41,8 +41,9 @@
   transition: color 3s;
   
 }
-.nav:hover{
+.nav:hover,a:hover{
   color: var(--color-2nd-accent);
+  cursor: pointer;
 }
 li {
   padding: 3px 12px;
@@ -166,6 +167,7 @@ background-color: var(--color-actbtn-hover);
 }
 
 @media (max-width: 750px) {
+  
   .actbtn {
     border: solid rebeccapurple;
     width: 70%;

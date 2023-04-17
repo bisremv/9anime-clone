@@ -1,10 +1,11 @@
 :root {
   --color-bg-1st: #050505;
+  --color-bg-4th: #0e0e0e;
   --color-bg-2nd: #1c1c1c;
-  --color-1st-accent: #713abf;
-  --color-2nd-accent: #a885da;
-  --color-text-on2nd-Bg: #515151;
   --color-bg-3rd: #4d4d4e;
+  --color-1st-accent: #713abf;
+  --color-text-on2nd-Bg: #515151;
+  --color-2nd-accent: #a885da;
   --color-ico-messenger: #0084ff;
   --color-ico-telegram: #0088c3;
   --color-ico-facebook: #3b5998;
